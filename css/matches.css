@@ -1,0 +1,43 @@
+body {
+    background-color: #33CCFF;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    height:100%;
+    margin:0;
+    font-size:10px;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+}
+
+.row {
+    font-size: 2em;
+    padding: 5vw;
+}
+
+#matches {
+    padding: 5vw;
+}
+
+h1 {
+   font-size: 5em; 
+}
+
+.signin{
+    font-size: 1.2em;
+}
+
+#login{
+    background-color: darkgray;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+html {
+    height:100%;
+}
