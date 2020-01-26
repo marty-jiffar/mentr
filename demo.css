@@ -1,0 +1,105 @@
+body {
+    background-color: #33CCFF;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    height:100%;
+    margin:0;
+    font-size:10px;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+}
+.demotext{
+    display: block;
+    position: relative;
+    animation: slide-right 1s ease-in;
+    animation: fade 2s;
+}
+video{
+    position: relative;
+    animation: slide-right 1s ease-in;
+    animation: fade 2s;
+}
+.w3-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+@keyframes slide-right{
+    from {
+        left: 500px;
+    }
+    to{
+        left: 0px;
+    }
+}
+
+@keyframes fade{
+    0% { opacity: 0}
+    100% { opacity: 1}
+}
+.row {
+    font-size: 2em;
+    padding: 2vw;
+}
+
+.profpic {
+    padding: 5vw;
+    padding-bottom: 0vw;
+}
+
+.head{
+    font-size: 2em;
+    padding-left: 5vw;
+}
+
+p{
+    font-size: 1.8em;
+    padding-left: 5vw;
+}
+
+i{
+    font-size: 1.8em;
+}
+
+h1 {
+   font-size: 6em; 
+}
+
+h2 {
+   font-size: 4.5em; 
+}
+
+.signin{
+    font-size: 1.2em;
+}
+
+.bio {
+    padding: 2vw;
+}
+
+#login{
+    background-color: darkgray;
+}
+
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+html {
+    height:100%;
+}
+
+/*
+.con {
+    opacity: 0;
+    display: none;
+}
+
+.con1 {
+    display: flex;
+    opacity: 1;
+}*/
